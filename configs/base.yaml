@@ -1,0 +1,12 @@
+project: a_share_momentum_robustness
+
+data:
+  asset_prices: data/raw/asset_prices.csv
+  benchmark_prices: data/raw/benchmark_prices.csv
+  start_date: null
+  end_date: null
+
+backtest:
+  initial_capital: 1000000.0
+  annualization: 252
+

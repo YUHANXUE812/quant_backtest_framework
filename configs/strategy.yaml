@@ -1,0 +1,14 @@
+factor:
+  lookback: 60
+  skip_recent: 5
+  robustness_lookbacks: [20, 60, 120]
+  robustness_skip_periods: [0, 5, 20]
+  winsor_lower: 0.01
+  winsor_upper: 0.99
+
+strategy:
+  quantiles: 5
+  direction: high_momentum
+  long_short: false
+  rebalance: M
+

@@ -1,0 +1,8 @@
+portfolio:
+  gross_exposure: 1.0
+  max_gross_exposure: 1.0
+  max_stock_weight: 0.20
+  target_annual_volatility: null
+  volatility_lookback: 20
+  max_leverage: 1.0
+

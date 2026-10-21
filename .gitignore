@@ -1,0 +1,22 @@
+.conda-env/
+.pytest_cache/
+.ipynb_checkpoints/
+**/__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local datasets and generated backtest outputs must never be committed.
+data/
+notebooks/results/
+notebooks/*.html
+
+# Local secrets and editor/OS state.
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

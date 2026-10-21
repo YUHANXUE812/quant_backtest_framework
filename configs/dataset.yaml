@@ -1,0 +1,22 @@
+dataset:
+  industry_code: "801080"
+  industry_name: "电子"
+  membership_mode: current_constituents
+  benchmark_code: sh.000300
+  market_index_code: sh.000001
+  start_date: "2005-04-29"
+  end_date: "2016-11-30"
+  factor_lookback: 60
+  factor_skip_recent: 5
+  mad_multiplier: 5.0
+  factor_windows_months: [1, 3, 6, 12]
+  halpha_lookback_months: 60
+  correlation_window_months: 36
+
+  raw_membership_file: data/raw/electronics_members.csv
+  raw_stock_daily_file: data/raw/electronics_stock_daily.csv
+  raw_benchmark_file: data/raw/hs300_daily.csv
+  raw_market_file: data/raw/shanghai_composite_daily.csv
+  download_failures_file: data/raw/download_failures.csv
+  output_file: data/processed/electronics_momentum_monthly.csv
+  audit_file: data/processed/electronics_momentum_audit.csv

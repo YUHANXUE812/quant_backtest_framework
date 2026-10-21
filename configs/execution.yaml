@@ -1,0 +1,6 @@
+# 以下均为研究假设，不代表券商或交易所的当前收费标准。
+execution:
+  commission_bps: 3.0
+  sell_stamp_duty_bps: 5.0
+  slippage_bps: 5.0
+
